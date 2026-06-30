@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+import ParticleBackground from './components/effects/ParticleBackground.vue'
 const mobileOpen = ref(false)
 const toggleMobile = () => {
 mobileOpen.value = !mobileOpen.value
@@ -8,6 +9,8 @@ mobileOpen.value = !mobileOpen.value
 
 <template>
   <div class="min-h-screen flex flex-col bg-gray-50">
+    <ParticleBackground />
+
     <!-- Header -->
     <header class="sticky top-0 z-40 bg-gray-900 text-white shadow-lg">
       <div class="mx-auto px-4 py-3 flex items-center justify-center">
@@ -51,7 +54,7 @@ mobileOpen.value = !mobileOpen.value
     </header>
 
     <!-- 主内容 -->
-    <main class="flex-1 dark:bg-gray-950">
+    <main class="flex-1 bg-cover bg-center bg-fixed dark:bg-gray-950">
       <RouterView />
     </main>
 
@@ -62,7 +65,3 @@ mobileOpen.value = !mobileOpen.value
     </footer>
   </div>
 </template>
-
-<style>
-
-</style>
