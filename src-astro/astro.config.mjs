@@ -5,6 +5,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
+  base: '/roadmap-for-myself/',
+  outDir: '../docs',
   vite: {
     plugins: [tailwindcss()]
   }
