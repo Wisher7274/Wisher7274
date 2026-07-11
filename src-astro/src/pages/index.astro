@@ -1,17 +1,9 @@
 ---
-
+import BaseLayoutAstroComponent from "../layouts/BaseLayout.astro"
+import HeroSection from "../components/HeroSection.astro"
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayoutAstroComponent>
+	<main class="flex-1">
+		<HeroSection />
+	</main>
+</BaseLayoutAstroComponent>
