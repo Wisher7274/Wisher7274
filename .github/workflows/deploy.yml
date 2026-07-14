@@ -48,6 +48,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to deploy."
           else
-            git commit -m "📦 Deploy Astro build [skip ci]"
+            git commit -m "Deploy Astro build [skip ci]"
             git push
           fi
