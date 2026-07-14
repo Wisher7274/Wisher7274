@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import { ClientRouter } from 'astro:transitions';
+import ParticleBackgroundAstroComponent from '../components/ParticleBackground.vue';
 
 const pathname = Astro.url.pathname;
 const isHome = pathname === '/roadmap-for-myself/' || pathname === '/roadmap-for-myself';
@@ -42,9 +43,12 @@ const isAbout = pathname.startsWith('/roadmap-for-myself/about');
         </div>
       </nav>
     </header>
+
 	<main class="bg-center bg-cover bg-fixed" style="background-image: url('/roadmap-for-myself/bg.webp')">
-		<slot />
+    <ParticleBackgroundAstroComponent client:load />
+    <slot />
 	</main>
+
     <footer class="relative border-t border-slate-200 bg-white py-5 z-20">
       <!-- 顶部分隔渐变线 -->
       <div class="absolute top-0 left-1/2 -translate-x-1/2 h-px w-32 bg-linear-to-r from-transparent via-cyan-400 to-transparent" />
