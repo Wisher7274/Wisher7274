@@ -6,6 +6,7 @@ import ParticleBackgroundAstroComponent from '../components/ParticleBackground.v
 const pathname = Astro.url.pathname;
 const isHome = pathname === '/roadmap-for-myself/' || pathname === '/roadmap-for-myself';
 const isAbout = pathname.startsWith('/roadmap-for-myself/about');
+const isContact = pathname.startsWith('/roadmap-for-myself/contact');
 ---
 <html lang="zh-CN">
 	<head>
@@ -25,7 +26,7 @@ const isAbout = pathname.startsWith('/roadmap-for-myself/about');
         shadow-sm shadow-slate-200/10
         transition-all duration-300 ease-out
         ${isHome ? 'opacity-0 -translate-y-full group-hover:opacity-100 group-hover:translate-y-0' : 'opacity-100 translate-y-0'}`}>
-        <h2>WISHER</h2>
+        <h2 class="font-bold">WISHER</h2>
         <!-- 导航链接 -->
         <div class="flex items-center gap-1">
           <a
@@ -40,6 +41,12 @@ const isAbout = pathname.startsWith('/roadmap-for-myself/about');
               ${isAbout ? 'text-cyan-400' : 'text-slate-500 hover:text-slate-700 hover:bg-slate-100/50'}`}>
             介绍
           </a>
+          <a
+            href="/roadmap-for-myself/contact/"
+            class={`px-4 py-1.5 text-sm font-medium rounded-md transition-colors duration-200
+              ${isContact ? 'text-cyan-400' : 'text-slate-500 hover:text-slate-700 hover:bg-slate-100/50'}`}>
+            联系
+          </a>
         </div>
       </nav>
     </header>
@@ -49,7 +56,7 @@ const isAbout = pathname.startsWith('/roadmap-for-myself/about');
     <slot />
 	</main>
 
-    <footer class="relative border-t border-slate-200 bg-white py-5 z-20">
+    <footer class="relative border-t border-slate-200 bg-mist-300 py-5 z-20">
       <!-- 顶部分隔渐变线 -->
       <div class="absolute top-0 left-1/2 -translate-x-1/2 h-px w-32 bg-linear-to-r from-transparent via-cyan-400 to-transparent" />
 
