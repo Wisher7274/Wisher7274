@@ -32,26 +32,26 @@ const isContact = pathname.startsWith('/roadmap-for-myself/contact');
           <a
             href="/roadmap-for-myself/"
             class={`px-4 py-1.5 text-sm font-medium rounded-md transition-colors duration-200
-              ${isHome ? 'text-cyan-400' : 'text-slate-500 hover:text-slate-700 hover:bg-slate-100/50'}`}>
+              ${isHome ? 'text-cyan-400' : 'text-slate-200 hover:text-slate-700 hover:bg-slate-100/50'}`}>
             首页
           </a>
           <a
             href="/roadmap-for-myself/about/"
             class={`px-4 py-1.5 text-sm font-medium rounded-md transition-colors duration-200
-              ${isAbout ? 'text-cyan-400' : 'text-slate-500 hover:text-slate-700 hover:bg-slate-100/50'}`}>
+              ${isAbout ? 'text-cyan-400' : 'text-slate-200 hover:text-slate-700 hover:bg-slate-100/50'}`}>
             介绍
           </a>
           <a
             href="/roadmap-for-myself/contact/"
             class={`px-4 py-1.5 text-sm font-medium rounded-md transition-colors duration-200
-              ${isContact ? 'text-cyan-400' : 'text-slate-500 hover:text-slate-700 hover:bg-slate-100/50'}`}>
+              ${isContact ? 'text-cyan-400' : 'text-slate-200 hover:text-slate-700 hover:bg-slate-100/50'}`}>
             联系
           </a>
         </div>
       </nav>
     </header>
 
-	<main class="bg-center bg-cover bg-fixed" style="background-image: url('/roadmap-for-myself/bg.webp')">
+	<main class="bg-center bg-cover bg-local" style="background-image: url('/roadmap-for-myself/bg.webp')">
     <ParticleBackgroundAstroComponent client:load />
     <slot />
 	</main>

@@ -38,3 +38,13 @@
     transform: translateY(0);
   }
 }
+
+/* ===== 修复 iOS Safari 上 backdrop-blur 不显示 ===== */
+.backdrop-blur-sm {
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+.backdrop-blur-md {
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
