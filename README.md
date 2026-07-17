@@ -4,7 +4,7 @@
 
 > *人活着就是为了整活~*
 
-[![Website](https://img.shields.io/badge/🌐_Blog-wisher7274.github.io-ff69b4?style=for-the-badge)](https://wisher7274.github.io/roadmap-for-myself)
+[![Website](https://img.shields.io/badge/🌐_Blog-wisher7274.github.io-ff69b4?style=for-the-badge)](https://wisher7274.github.io/wisher7274)
 
 <br>
 

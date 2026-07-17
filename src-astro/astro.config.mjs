@@ -7,7 +7,7 @@ import vue from '@astrojs/vue';
 
 // https://astro.build/config
 export default defineConfig({
-  base: '/roadmap-for-myself/',
+  base: '/Wisher7274/',
   outDir: '../docs',
 
   vite: {
