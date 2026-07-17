@@ -1,37 +1,46 @@
-# 🌱 Wisher7274's learning corner
+<div align="center">
 
-🌐 **语言:** [English](README.en.md) | 中文
-> *"A new way to avoid burnout in this AI era when learning development. And have some fun. ♡"*
+# Wisher7274
 
-Hi~ 欢迎来到我的Github仓库！我是Wisher7274，一名刚高考完的毕业生，正在努力从“啥都懂一点”走向“真的能写点东西”。
+> *人活着就是为了整活~*
 
-## 关于我
+[![Website](https://img.shields.io/badge/🌐_Blog-wisher7274.github.io-ff69b4?style=for-the-badge)](https://wisher7274.github.io/roadmap-for-myself)
 
-- 喜欢Linux，会用Godot，GitHub上有一个简陋的galgame剧情播放器（算是我的第一个“活着的”项目）
-- 喜欢Neuro-sama，梦想是做出能**打破次元壁**、有生命力的AI陪伴
-- 懂一点点零碎的知识，但没有工程经验，也没有成型的编程思想
-- 闷骚、容易自卑，但**超想和别的开发者交流** (´•̥ ̯ •̥`)
+<br>
 
-## 这里会有什么？
+<!-- GitHub Stats -->
+<a href="https://github.com/Wisher7274">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Wisher7274&show_icons=true&theme=transparent&hide_title=true&hide_border=true&include_all_commits=true&count_private=true" />
+</a>
+<a href="https://github.com/Wisher7274">
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wisher7274&layout=compact&theme=transparent&hide_border=true&langs_count=6" />
+</a>
 
-- 我的学习路线摸索过程（踩坑记录 + 路线调整）
-- 小项目的开发笔记（Godot、Python、AI……想到什么玩什么）
-- 一些关于避免 burnout 的思考 & 保持快乐的方法
+<br>
 
-> 本仓库会收录多个学习探索项目，其中rdmyself作为与本仓库相关联的个人博客，相关笔记会被记录在其中。
-> 现在我已经搭建好个人博客的Github pages页面，正在施工，但已经可以访问啦！
-[点这里](https://wisher7274.github.io/roadmap-for-myself)
+<!-- Trophy -->
+<a href="https://github.com/Wisher7274">
+  <img src="https://github-profile-trophy.vercel.app/?username=Wisher7274&row=1&column=5&no-frame=true&no-bg=true&margin-w=6" />
+</a>
 
-## 我想做的
+</div>
 
-- 找到适合自己的学习路径，不再纠结技术栈
-- 学会真正的开发方法，而不是背教程
-- **练习和人交流**，哪怕只是说一句“我觉得这个好酷”
+---
 
-## 最后
+### 关于我
 
-暂时贡献不了什么代码，但我有**大把的时间和非常多的热情**。如果你愿意和我聊聊天、一起折腾、或者只是路过留下一句鼓励，我都会超开心 ❤
+- 终日幻想成为前后端通吃，软硬件都行的超级大佬。实际上是个小资历
+- “白日梦”叫着不好听，“愿望”就很好——所以我叫自己Wisher
+- 现在，我的愿望仍有一些漂浮着，有一些已经轻轻实现
+- 努力找寻自己的方向ing~ 目前正在为LingChat做贡献~顺便学了好多东西
 
-欢迎常来～让我们一起在这个AI时代，**学得快乐，活得有生命力**。
+### 漂流瓶
 
-♡ Wisher7274 - Jacob Lee
+<sub>来找我玩玩吧，我很有趣的……额，等到有一天我写一个超好玩的东西你就知道啦！</sub>
+
+[![GitHub](https://img.shields.io/badge/GitHub-@Wisher7274-181717?logo=github)](https://github.com/Wisher7274)
+<!-- 如果你有别的社交链接加在这里，保持一行一个 -->
+
+---
+
+<div align="center"><sub>Nothing but wish.</sub></div>
