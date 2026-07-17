@@ -4,24 +4,7 @@
 
 > *人活着就是为了整活~*
 
-[![Website](https://img.shields.io/badge/🌐_Blog-wisher7274.github.io-ff69b4?style=for-the-badge)](https://wisher7274.github.io/wisher7274)
-
-<br>
-
-<!-- GitHub Stats -->
-<a href="https://github.com/Wisher7274">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Wisher7274&show_icons=true&theme=transparent&hide_title=true&hide_border=true&include_all_commits=true&count_private=true" />
-</a>
-<a href="https://github.com/Wisher7274">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wisher7274&layout=compact&theme=transparent&hide_border=true&langs_count=6" />
-</a>
-
-<br>
-
-<!-- Trophy -->
-<a href="https://github.com/Wisher7274">
-  <img src="https://github-profile-trophy.vercel.app/?username=Wisher7274&row=1&column=5&no-frame=true&no-bg=true&margin-w=6" />
-</a>
+[![Website](https://img.shields.io/badge/🌐_Blog-wisher7274.github.io-ff69b4?style=for-the-badge)](https://wisher7274.github.io/Wisher7274)
 
 </div>
 
