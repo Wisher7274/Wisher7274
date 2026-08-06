@@ -4,7 +4,7 @@
 
 > *Nothing But Wish*
 
-[![Website](https://img.shields.io/badge/🌐_Blog-wisher7274.github.io-ff69b4?style=for-the-badge)](https://wisher7274.github.io/Wisher7274)
+[![Website](https://img.shields.io/badge/🌐_Blog-wisherblog-ff69b4?style=for-the-badge)](https://blog.wisher0x7d7.icu/)
 
 </div>
 

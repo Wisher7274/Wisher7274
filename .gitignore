@@ -1,6 +1,9 @@
 # Repo-wide ignore rules (apply to all subdirectories).
 # Vue/Vite-specific rules live in rdmyself_vue/.gitignore — Git merges both automatically.
 
+# Ole project dir
+rdmyself_vue/
+
 # Dependencies
 node_modules/
 
